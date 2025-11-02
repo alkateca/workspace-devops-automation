@@ -14,5 +14,5 @@ variable "admin_password" {
   description = "Senha do usuário adm"
   type = string
   sensitive = true
-  default = "Senhaforte123!@#"
+  default = "SenhaForte123!@#"
 }
