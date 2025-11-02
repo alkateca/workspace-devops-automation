@@ -1,0 +1,5 @@
+# Força todos os arquivos de texto a usar a quebra de linha LF (Linux)
+* text=auto eol=lf
+
+# Especifica para arquivos Terraform
+*.tf text eol=lf

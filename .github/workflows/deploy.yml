@@ -34,6 +34,7 @@ jobs:
         run: |
           export ARM_SUBSCRIPTION_ID=${{ secrets.ARM_SUBSCRIPTION_ID }}
           terraform init
+          terraform fmt -diff
           terraform validate
           terraform plan -out=tfplan
 
