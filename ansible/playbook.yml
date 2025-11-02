@@ -1,7 +1,7 @@
 ---
 - name: Instalar Docker no Ubuntu
   hosts: vm
-  become: true
+  become: yes
   tasks:
     - name: Instalar dependências
       apt:
